@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+@extends('layouts.app')
 
-    @vite(['resources/css/app.css','resources/js/app.js'])
-</head>
-<body class="bg-[#0f1117] text-white flex items-center justify-center min-h-screen">
+@section('content')
 
-<h1 class="text-5xl font-bold">
-    Welcome To VYXIAN Library
-</h1>
+<div class="text-center mt-20">
+    <h1 class="text-4xl font-bold">🎮 Vyxian Game Launcher</h1>
+    <p class="text-zinc-400 mt-2">Welcome to your game world</p>
+</div>
 
-</body>
-</html>
+@endsection
